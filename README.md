@@ -7,13 +7,13 @@ This is a bug fixed version of [dependency parse projectivization](http://www.cs
 
 - python2.7(other 2.x might work but I didn't check)
 
-# Usage:
+# Usage
 
 ```
    python projectivize.py CONLL_INPUT_FILE > PROJECTIVE_FILE
 ```
 
-# Others:
+# Others
 
    Note that this is lossy conversion. 
    If you actually care about the non-projective relations, 
@@ -22,7 +22,7 @@ This is a bug fixed version of [dependency parse projectivization](http://www.cs
    This will just help you maximize the accuracy of the projective links
    of you projective parser.
 
-# How it converts:
+# How it converts
 
    the algorithm uses Eisner's projective decoder, where links in the
    original tree are assigned a score of 1, and all other links a score
